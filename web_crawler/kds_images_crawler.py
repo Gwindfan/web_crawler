@@ -28,8 +28,6 @@ imageUrlList = []
 for one in res :
     imageUrlList.append(one['src'])    
 
-print count
-
 # save in local file system
 if not os.path.isdir(dir) : 
     os.mkdir(dir)
